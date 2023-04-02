@@ -24,9 +24,9 @@ apply plugin: 'jacoco'
 apply plugin: 'org.sonarqube'
 
 
-group = 'com.fredboat.lavalink.client'
+group = 'me.bombies.lavalink.client'
 version = "${versionFromTag()}"
-description = 'JDA based client for the Lavalink-Server'
+description = 'JDA based client for the Lavalink-Server written specifically for Robertify.'
 
 
 sourceCompatibility = 1.8
