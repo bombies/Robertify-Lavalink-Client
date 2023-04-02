@@ -29,8 +29,8 @@ version = "${versionFromTag()}"
 description = 'JDA based client for the Lavalink-Server written specifically for Robertify.'
 
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 19
+targetCompatibility = 19
 
 
 repositories {
@@ -146,7 +146,7 @@ publishing {
             pom {
                 name = project.name
                 description = project.description
-                url = 'https://github.com/FredBoat/Lavalink-Client'
+                url = 'https://github.com/bombies/Robertify-Lavalink-Client'
                 licenses {
                     license {
                         name = 'MIT'
@@ -155,7 +155,7 @@ publishing {
                     }
                 }
                 scm {
-                    url = 'https://github.com/FredBoat/Lavalink-Client'
+                    url = 'https://github.com/bombies/Robertify-Lavalink-Client'
                 }
             }
         }
