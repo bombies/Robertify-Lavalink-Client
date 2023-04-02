@@ -28,8 +28,8 @@ group = 'me.bombies.lavalink.client'
 version = "${versionFromTag()}"
 description = 'JDA based client for the Lavalink-Server written specifically for Robertify.'
 
-sourceCompatibility = JavaVersion.VERSION_HIGHER
-targetCompatibility = JavaVersion.VERSION_HIGHER
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
     jcenter()
