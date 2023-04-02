@@ -28,21 +28,20 @@ group = 'me.bombies.lavalink.client'
 version = "${versionFromTag()}"
 description = 'JDA based client for the Lavalink-Server written specifically for Robertify.'
 
-
-sourceCompatibility = 19
-targetCompatibility = 19
-
+sourceCompatibility = JavaVersion.VERSION_HIGHER
+targetCompatibility = JavaVersion.VERSION_HIGHER
 
 repositories {
     jcenter()
     mavenCentral()
+    maven { url 'https://m2.dv8tion.net/releases' } // for lavaplayer
     maven { url 'https://jitpack.io' }
 }
 
 
 ext {
     //@formatter:off
-    gradleVersion               = '4.9'
+    gradleVersion               = '7.4.2'
     //@formatter:on
 }
 
